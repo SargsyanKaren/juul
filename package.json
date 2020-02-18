@@ -1,0 +1,25 @@
+{
+  "name": "juul",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "npm start --prefix server",
+    "start": "concurrently \"npm run client\" \" npm run server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://SargsyanKaren@github.com/SargsyanKaren/juul.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SargsyanKaren/juul/issues"
+  },
+  "homepage": "https://github.com/SargsyanKaren/juul#readme",
+  "dependencies": {
+    "concurrently": "^5.1.0"
+  },
+  "proxy": "http://localhost:8000"
+}
